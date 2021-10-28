@@ -46,6 +46,12 @@ html {
           align-items: center;
 }
 
+@media (max-width: 1100px) {
+  #socials-wrapper {
+    visibility: hidden;
+  }
+}
+
 .nav-button, .nav-icon {
   background-color: #b94b4b;
   color: #FFF;
@@ -55,6 +61,7 @@ html {
   height: 100%;
   -webkit-transition: all 0.5s 0s ease;
   transition: all 0.5s 0s ease;
+  transition-property: color, background-color;
   fill: #000;
 }
 
