@@ -1,43 +1,49 @@
 <html>
     <head>
-        <title>Shekamoo Grill</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="icon" href="media/shekamoo.png">
+        <title>Reactive Peak Studios</title>
+        <link rel="stylesheet" href="styles/home/home.css">
+        <link rel="icon" href="media/RPS.svg">
         
     </head>
     <body>
         <div id="head-container">
             <div id="head-wrapper" style="display:flex;">
-                <img src="media/shekamoo.png" style="height:150; width:150; vertical-align:center; margin:25px;">  
-                <div>
-                    <h1>SHEKAMOO GRILL</h1>
-                    <h3>For The Love Of Food!</h3>    
+                <img src="media/RPS.svg" style="height:200; width:200; vertical-align:center;">  
+                <div style="margin-top:auto; margin-bottom: auto;">
+                    <h2 style="color:#F08651"><span style="color:#51A3F0">Reactive</span> Peak</h2>
+                    <p>Reactive Results. Peak Performance.</p>
                 </div>
             </div>
             <div id="nav-container">
-                    <button class="nav-button" id="nav-home" >Home</button>
-                    <button class="nav-button" id="nav-menu">Menu</button>
-                    <button class="nav-button" id="nav-about">About</button>
-                    <button class="nav-button" id="nav-contact">Contact</button>
+                    <div id="nav-wrapper">
+                        <button title="Visit the Home Page" class="nav-button" id="nav-home" >Home</button>
+                        <button title="Visit a Projects Page" class="nav-button" id="nav-projects">Projects <span>&#8681</span>
+                            <div class="dropdown-projects">
+                                <a title="Visit the Project Blog" href="blog/index.html">Project Blog</a>
+                                <a title="Visit the ECHO Caves Project">ECHO Caves</a>
+                            </div>
+                        </button>
+                        <button title="Visit the About Page" class="nav-button" id="nav-about">About</button>
+                        <button title="Visit the Contact Page" class="nav-button" id="nav-contact">Contact</button>
+                    </div>
                 <div id="socials-wrapper">
-                    <button class="nav-icon" onclick="window.open('https://www.twitter.com/');"><img src="media/twitter-logo.svg" style="max-width: 45px; "></button>
-                    <button class="nav-icon" onclick="window.open('https://instagram.com');"><img src="media/instagram-logo.svg" style="max-width: 45px; "></button>
-                    <button class="nav-icon" onclick="window.open('https://facebook.com');"><img src="media/facebook-logo.svg" style="max-width: 45px; "></button>
+                    <button class="nav-icon" onclick="window.open('https://twitter.com/ReactivePeak');"><img src="media/twitter-logo.svg"></button>
+                    <button class="nav-icon" onclick="window.open('https://instagram.com');"><img src="media/instagram-logo.svg"></button>
+                    <button class="nav-icon" onclick="window.open('https://facebook.com');"><img src="/media/github-logo.png" ></button>
                 </div>
             </div>
         </div>
-        <div id="menu-container">
-                    <img src="media/shekamenu.svg" style="max-width:1024px;">
-        </div>
+        
         <div id="foot-container">
             <div id="foot-wrapper">
-                <h3>Shekamoo Grill</h3>
-                <h5>Copyright &copy; Lorem Ipsum. All rights reserved.</h5>
+                <h2 style="color:#F08651"><span style="color:#51A3F0">Reactive</span> Peak</h2>
+                <p>Reactive Results. Peak Performance.</p>
+                <p id="copyright">Copyright &copy Reactive Peak Studios. All Rights Reserved.</p>
             </div>
-            <div>
-                <button class="nav-icon" onclick="window.open('https://www.twitter.com/');"><img src="media/twitter-logo.svg" style="max-width: 45px; padding:0;"></button>
-                <button class="nav-icon" onclick="window.open('https://instagram.com');"><img src="media/instagram-logo.svg" style="max-width: 45px; "></button>
-                <button class="nav-icon" onclick="window.open('https://facebook.com');"><img src="media/facebook-logo.svg" style="max-width: 45px; "></button>
+            <div id="social-foot-wrapper">
+                <button class="nav-icon" onclick="window.open('https://www.twitter.com/');"><img src="media/twitter-logo.svg"></button>
+                <button class="nav-icon" onclick="window.open('https://instagram.com');"><img src="media/instagram-logo.svg"></button>
+                <button class="nav-icon" onclick="window.open('https://facebook.com');"><img src="/media/github-logo.png"></button>
             </div>
         </div>
     </body>
